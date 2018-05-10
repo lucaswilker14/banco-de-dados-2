@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION ConverteParaMaiuscula(word VARCHAR2)
+RETURN VARCHAR2
+AS
+BEGIN
+    RETURN UPPER(TRIM(word));
+END;
+
+DECLARE
+BEGIN
+   DBMS_OUTPUT.PUT_LINE(ConverteParaMaiuscula('wendley Paylo'));
+END;
