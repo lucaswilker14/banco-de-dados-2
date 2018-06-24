@@ -1,0 +1,1 @@
+update projetos p set p.proprietario = (select ref(pa) from participantes pa where pa.empno = 7369);

@@ -1,0 +1,2 @@
+insert into pessoas values (t_pessoa('Wolfgang Amadeus Mozart', 123456, t_endereco('Am Berg 100','Salzburg','AU', 10424)));
+insert into pessoas values (t_pessoa('Ludwig van Beethoven', 234567, t_endereco('Rheinallee','Bonn','DE', 69234)));

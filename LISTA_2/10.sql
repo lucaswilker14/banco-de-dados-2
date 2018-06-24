@@ -1,0 +1,1 @@
+create table participantes of t_participante;

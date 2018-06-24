@@ -1,0 +1,1 @@
+update table(select p.modulos from projetos p where p.Id = 101) m set m.proprietario = (select ref(pa) from participantes pa where pa.empno = 7499) where m.Id = 1011;

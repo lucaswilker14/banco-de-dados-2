@@ -1,0 +1,1 @@
+update empregados e set e.gerente = (select ref(p) from pessoas p where p.ssn = 1123456), e.dadosPessoais = (select ref(p) from pessoas p where p.ssn = 234567);

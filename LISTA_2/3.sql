@@ -1,0 +1,1 @@
+create table pessoas of t_pessoa;

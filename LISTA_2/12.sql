@@ -1,0 +1,1 @@
+insert into empregados values (empregado_type(1001, null ,null ,t_endereco('500 Oracle Parkway', 'Redwood City', 'CA', '94065'), 50000, telefone_array('555-1212', '555-9999')));
